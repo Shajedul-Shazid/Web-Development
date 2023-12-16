@@ -1,0 +1,13 @@
+.blog{
+    border: 2px solid purple;  
+    border-radius: 20px;  
+    margin: 1%;   
+    width: 30%;
+    display: inline-block;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}

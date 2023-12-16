@@ -1,0 +1,26 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 3px solid gray;
+    cursor: pointer;
+}
+#num1 {
+    border-bottom: 2px solid red;
+    font-size: 25px;
+}
+#num2 {
+    border-bottom: 2px solid red;
+    font-size: 25px;
+}
+.res {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+<body>
+
+    <h1 id="demo">Hello, DOM!</h1>
+
+    <script>
+        // Access the element with the ID "demo" and change its content
+        document.getElementById("demo").innerHTML = "Hello, Updated DOM!";
+    </script>
+
+</body>
+</html>

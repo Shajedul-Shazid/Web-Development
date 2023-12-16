@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google dot com clone</title>
+    <style>
+      input,button {
+        display: block;
+      }        
+      .google {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      input {
+        margin-top: 30px;
+        border-radius: 50px;
+        padding: 15px 15px;
+        width: 60%;
+        border: 1px solid gray;
+      }
+      @media screen and (min-width:375px) {
+        .google {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* height: 100vh; */
+      }
+      input {
+        margin-top: 30px;
+        border-radius: 50px;
+        padding: 10px 10px;
+        width: 60%;
+        border: 1px solid gray;
+      }
+      }
+      .google-btn {        
+        display: flex;
+        justify-content: space-between;     
+      }
+      .google-btn button {
+        padding: 10px 13px; 
+        margin-top: 30px;
+        border: none;
+        transition: 0.3s all ease;
+      }
+      .google-btn button:hover {
+        border: 1px solid gray;        
+      }
+    </style>
+</head>
+<body>
+    
+
+   <div class="google">
+    <img src="images/google-image.png" alt="">
+    <input type="text">
+    <div class="google-btn">
+        <button style="margin-right: 5px;">Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+   </div>
+
+
+</body>
+</html>

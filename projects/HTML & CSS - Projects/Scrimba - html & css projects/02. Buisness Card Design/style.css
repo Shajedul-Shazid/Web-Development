@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    font-family: verdana; 
+  }
+  .card {
+  /*   border: 1px dotted blue; */
+    padding: 20px;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: #ddebf8;
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    color: #2b2839;
+     border-bottom: 6px solid #d8cefe;
+  }
+  
+  .card-img {
+    width: 150px;  
+  /*   border-bottom: 10px solid #d8cefe; */
+   
+  }
+  /* .card-data {
+    margin-left: 20px;
+    border: 1px dotted blue;
+    padding: 0px 20px;
+  } */
+  .center {
+    text-align: center;
+  }

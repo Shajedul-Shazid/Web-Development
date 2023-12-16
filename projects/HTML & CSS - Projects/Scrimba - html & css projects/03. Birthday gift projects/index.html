@@ -1,0 +1,58 @@
+<!-- style the app according to the proving design. The font is called "Happy Monkey" and can be embedded via google fonts. 
+Don't know how to make an image round? Google it! Also, consider how you should select the image(class vs id vs element selector). -->
+
+<!-- Add colors to the site based on the provide design. 
+
+pink: #EFB0C9;
+blue: #a2d2ff;
+white: #ffffff;
+ -->
+
+<!-- Add a thin blurred border around the <h1>, <h2> adn <h4> using the text-shadow technique you learned in the space Exploration section. Set the blur to 1px and the color to black. -->
+
+<!-- 1. create a gift-section <div> that will wrap all the elements  for the first gift. 
+2. Add the <h2>, <h3> and <img> elements, and give all of them their own classes. 
+3. Style the elements according to the design. 
+  PS: the image should be 400px wide.  -->
+  
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <title>Birthday wishes page design</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+       <div id="header">
+        <h1 id="alyx-wish">Today is Alyx star Birthday</h1>
+        <img id="alyx-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRloG2VOx4zeRorUC5q0jazaP0xyYZt8jirfoACTvpob-3u1LtPV-z5zqQyPF63DB0lz0k&usqp=CAU" alt="">
+        <h2 id="alyx-age">25 years old</h2>
+        <h4 id="alyx-date">09.12.23</h4>
+     </div>
+    
+    <div class="gift-section">
+      <h2>Here's how happy I am for you today</h2>
+      <h3>(Hover over the gift)</h3>
+      <div id="alyx-surprise" >    
+       </div>
+    </div>
+    
+     <div class="gift-section">
+      <h2>How people react when you enter the room </h2>    
+      <div id="alyx-astonish" >    
+       </div>
+    </div>
+    
+    <footer>
+      <p>Want to create your own Birthday Gift site? <br> Take this <span class="underline"> HTML & CSS course.</span> </p>    
+    </footer>
+    
+  </body>
+  </html>
